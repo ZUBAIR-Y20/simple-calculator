@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: green;
+}
+
+.calculator {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    width:30%;
+}
+
+#result {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(138, 153, 51)
+    ;
+}
+.input{
+    width: 50%;
+    margin-right: 10%;
+}
+.main{
+    margin-left:35%;
+    margin-top: 10%;
+}
